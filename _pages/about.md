@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <b>Georgia Tech Research Institute + <a href='https://ssdl.gatech.edu/'>Space System Design Lab</a></b>
+subtitle: <b>Georgia Institute of Technology</b>
 
 profile:
   align: right
