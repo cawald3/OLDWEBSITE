@@ -2,7 +2,7 @@
 layout: page
 title: Lunar Flashlight
 description: a project with a background image
-img: assets/img/lfblog/lf-coverphot.jpg
+img: assets/img/lfblog/lf-coverphoto.jpg
 importance: 1
 category: work
 ---
