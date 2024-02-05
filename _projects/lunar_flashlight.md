@@ -11,7 +11,7 @@ Lunar Flashlight (LF) was a 6-U CubeSat that was originally developed at JPL tha
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/lfblog/lf-final-crop.jpg" title="LF in our cleanroom" class="img-fluid rounded z-depth-1" %}
+        This is a test of what happens if I just put text in here. Will things break?
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/lfblog/lf-earthphoto.png" title="Photo of Earth taken by LF" class="img-fluid rounded z-depth-1" %}
