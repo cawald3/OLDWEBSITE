@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Work and personal projects that are either ongoing or finished.
+description: Work and personal projects that are either ongoing or finished
 nav: true
 nav_order: 2
 display_categories: [Work, Personal]
