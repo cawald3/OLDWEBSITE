@@ -199,6 +199,29 @@ blockquote {
   margin-right: 1rem;
 }
 
+.wrapped {
+  width: 100%;
+
+  .more-info {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: monospace;
+
+    p {
+      display: inline-block;
+      margin: 0;
+    }
+  }
+}
+
+.wrapped.float-left {
+  margin-right: 1rem;
+}
+
+.wrapped.float-right {
+  margin-left: 1rem;
+}
+
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -208,6 +231,9 @@ blockquote {
         display: block;
       }
     }
+  }
+  .wrapped {
+    width: 30%;
   }
 }
 
