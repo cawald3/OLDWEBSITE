@@ -23,6 +23,16 @@ category: Work
 <div class ="row" style="height:20px">
 </div>
 
+<h1> Integration </h1>
+<h1> Test</h1>
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/lfblog/lf-selfie.jpg" title="Me with LF after our pre-ship review" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<h1> Launch</h1>
+<h1> Operations </h1>
+<h1> End of Mission</h1>
 <!--Check this https://codepen.io/jpI/pen/QQwqWK?editors=1100-->
 <div class="row">
     <div class="col-sm">
