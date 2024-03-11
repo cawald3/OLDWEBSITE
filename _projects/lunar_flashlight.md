@@ -27,33 +27,54 @@ related_publications: true
 
 <b>So why go to the moon and look for water ice at the south pole? And how do we know there's water there in the first place?</b>
 
-Because of the geometry of craters on the south pole of the moon, there are areas within certain craters that have not seen sunlight in millions of years. These regions could have extremely low temperatures and any water vapor that found its way to these locations could be trapped. There have been several missions that were designed to detect water on the moon. One of my favorite examples is the [LCROSS](https://en.wikipedia.org/wiki/LCROSS) mission, which smashed the upper stage of a rocket into a crater to expel a dust cloud which a second spacecraft would then fly through to measure the water content of the ejected regolith.
+Because of the geometry of certain craters on the south pole of the moon, there are areas on the south pole that have not seen sunlight in millions of years. These regions have extremely low temperatures and any water that found its way to these locations could be trapped and form deposits. There have been several missions that were designed to detect water on the moon. One of my favorite examples is the [LCROSS](https://en.wikipedia.org/wiki/LCROSS) mission, which smashed the upper stage of a rocket into a crater to expel a dust cloud which a second spacecraft would then fly through to measure the water content of the ejected regolith.
 
 So while we know there is water ice on the south pole of the moon, it is still an open question of where the water ice is precisely located. Enter Lunar Flashlight. By carrying high power infrared lasers and a detector capable of measuring the reflected laser signal from the lunar surface, Lunar Flashlight could determine the distribution of the water ice in 2-D at a higher resolution than any previous mission. We had a wonderful science team for this mission and you can find a fantastic article on the instrument and the designed science mission here 
 {%cite LFInstr%}.
 
 
 <h1> Integration </h1>
+<b>Putting all the pieces together</b>
+
+We had a propulsion system that was fabricated at GT and an avionics assembly that was assembled at JPL. While both systems had undergone some system-level testing, they had never been tested as a unit. When the upper avionics assembly arrived at GT, it would be the first time **ever** that the flight systems would be connected. We had to take this from a collection of separate parts, to a fully-assembled CubeSat ready for launch in just a few months.
+
+I was thrown into this project in June 2021, about two months before the bus was scheduled to arrive. I was responsible for writing procedures on how to assemble a CubeSat that I hadn't even seen in person yet. I spent almost every day meeting with JPL engineers and students within SSDL at GT to figure out how we were going to put this thing together. It was stressful but extremely rewarding at the same time.
+
+The bus arrived at GT in August 2021. Our original schedule was tight as we originally thought we would be delivering LF for launch on the Artemis 1 mission. The project quickly decided though that it would be better to skip the Artemis 1 launch and give us more time to fully assembly and test the bus.
+
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/lfblog/lf-internal-guts.jpg" title="Inner guts of LF" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+<div class="caption">
+    LF and the propulsion unit during a preliminary fit check
+</div>
+
+
 <h1> Test</h1>
+<b>Making sure this thing works</b>
 <div class="row">
     <div class="col-sm">
         {% include figure.html path="assets/img/lfblog/lf-selfie.jpg" title="Me with LF after our pre-ship review" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <h1> Launch</h1>
+<b>Getting LF off the ground</b>
+
 <h1> Operations </h1>
+<b>Wishing that LF was on the ground</b>
+
 <h1> End of Mission</h1>
+<b>Saying goodbye</b>
 <!--Check this https://codepen.io/jpI/pen/QQwqWK?editors=1100-->
 <div class="row">
     <div class="col-sm">
         {% include figure.html path="assets/img/lfblog/lf-cad-labeled.png" title="LF Internal Components" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="row">
-    <div class="col-sm">
-        {% include figure.html path="assets/img/lfblog/lf-internal-guts.jpg" title="Inner guts of LF" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 <div class="row">
     <div class="col-sm">
         {% include figure.html path="assets/img/lfblog/lf-earthphoto.png" title="Photo of Earth taken by LF" class="img-fluid rounded z-depth-1" %}
