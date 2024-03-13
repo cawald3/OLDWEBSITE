@@ -6,6 +6,9 @@ img: assets/img/lfblog/lf-coverphoto.jpg
 importance: 1
 category: Work
 related_publications: true
+toc:
+    sidebar: left
+
 ---
 
 <div class="wrapped float-left" style="width:30%">
@@ -15,9 +18,12 @@ related_publications: true
               </div>
 </div>
 <div class = "clearfix">
+<p>
     Lunar Flashlight (LF) was a 6-U CubeSat originally developed at JPL that was designed to detect water ice on the south pole of the moon. GT was selected to design the propulsion system in conjunction with MSFC. After GT's initial involvement designing the propulsion system, GT was selected to integrate the spacecraft and perform mission operations.  
-    
+</p>
+<p>
     I got involved with the integration and test campaign while I was finishing my undergrad degree. After being hired full-time at GTRI, I continued my work on LF, delivering the CubeSat for launch in late 2022 and performing mission operations through summer 2023.  LF ultimately failed to reach the moon, but working on this project was incredibly rewarding and a highlight of my career. This page covers my involvement with LF from it first arriving at GT in Summer 2021 to us saying goodbye in December 2023. (WORK IN PROGRESS)
+</p>
  </div>
 
 <div class ="row" style="height:20px">
@@ -40,7 +46,8 @@ We had a propulsion system that was fabricated at GT and an avionics assembly th
 
 I was thrown into this project in June 2021, about two months before the bus was scheduled to arrive. I was responsible for writing procedures on how to assemble a CubeSat that I hadn't even seen in person yet. I spent almost every day meeting with JPL engineers and students within SSDL at GT to figure out how we were going to put this thing together. It was stressful but extremely rewarding at the same time.
 
-The bus arrived at GT in August 2021. Our original schedule was tight as we originally thought we would be delivering LF for launch on the Artemis 1 mission. The project quickly decided though that it would be better to skip the Artemis 1 launch and give us more time to fully assembly and test the bus.
+The bus arrived at GT in August 2021. Our original schedule was tight as we originally thought we would be delivering LF for launch on the Artemis 1 mission. The project quickly decided though that it would be better to skip the Artemis 1 launch and give us more time to fully assembly and test LF.
+
 
 <div class="row">
     <div class="col-sm">
@@ -52,6 +59,25 @@ The bus arrived at GT in August 2021. Our original schedule was tight as we orig
     LF and the propulsion unit during a preliminary fit check
 </div>
 
+Our first task was to get the propulsion system connected mechanically and electrically to the upper avionics assembly. Mechanical integration didn't present much of a risk to the hardware. If we found a problem, we could just pause and things would stay safe where they were. Initial fit checks went smoothly and it only took us a couple days to complete the propulsion system mechanical integration.
+
+ Electrical integration, on the other hand, was a much riskier operation. GT and JPL had worked together to define the propulsion system interface, agreeing on what pins should be where, what voltage levels should be provided, what connector to use, etc. But mistakes happen. Pins can get swapped inadvertently. A cabling harness might be designed to an older specification. Design changes might never get communicated to the other team. If you ever fry a component in the lab, you just grab a new part, replace the dead one, and move on with testing. But there was no new part for the propulsion system — this was a one-of-a-kind system that had taken years to build. Messing up the propulsion system was not an option. We couldn't make any mistakes.
+
+ This is where I learned a very important lesson about how engineers working with space hardware approach these massive projects and it's stuck with me to this day: **Mistakes are inevitable, but we can design a process that is resilient to these mistakes**. 
+ 
+ JPL doesn't expect engineers to be perfect machines, in fact, they assume the opposite — that every engineer is human and mistakes are inevitable. By acknowledging this so openly and plainly, we can make plans on how to minimize the impacts of any mistakes. 
+
+ One saying I've heard a lot in my work with JPL is "Trust, but verify." We knew that JPL had designed the propulsion system to the specifications given by GT, but what if an innocent mistake had happened along the way? So for our propulsion system electrical testing, we would perform a "safe-to-mate" before connecting the two systems together. A safe-to-mate is a manual check of every wire in a connector to verify that voltage levels are safe and the pin-out matches the design. 
+
+ To do this, we had to design an adapter that would take the propulsion system cables and break it out to a easily probed interface. This was my first time outside of coursework designing a PCB and I was happy to make a PCB that would actually serve a real purpose. I sat down at my computer one afternoon, launched Eagle, and came up with the board in the picture below:
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/lfblog/LFPS_BOB.jpg" title="Inner guts of LF" class="img-fluid rounded z-depth-1" %}
+    </div>
+
+</div>
+
+ Looking back at it now, it's as basic of a PCB as you can get. I don't know if I would even mention this PCB in an interview if asked about all of my design experience. But it was still my first actual PCB and it holds a special place in my engineering heart (questionable routing and design choices aside).
 
 <h1> Test</h1>
 <b>Making sure this thing works</b>
@@ -60,8 +86,11 @@ The bus arrived at GT in August 2021. Our original schedule was tight as we orig
         {% include figure.html path="assets/img/lfblog/lf-selfie.jpg" title="Me with LF after our pre-ship review" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<h1> Launch</h1>
+
+<h1>Launch</h1>
 <b>Getting LF off the ground</b>
+
+After a long and arduous test campaign, we had finally delivered LF and were ready for operations. All that had to happen now was for us to launch.
 
 <h1> Operations </h1>
 <b>Wishing that LF was on the ground</b>
