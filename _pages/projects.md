@@ -27,7 +27,12 @@ horizontal: false
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <div class="container" style = "
+        display: flex;
+        flex-wrap: wrap;
+        box-sizing: content-box;
+        padding: 0px;
+        ">
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}

@@ -656,6 +656,9 @@ footer.sticky-bottom {
   .grid-item {
     width: 250px;
     margin-bottom: 10px;
+    padding-right: 10px;
+    align-items: stretch;
+    display: flex;
   }
 
   h2.category {
