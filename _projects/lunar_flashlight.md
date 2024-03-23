@@ -22,7 +22,7 @@ toc:
     Lunar Flashlight (LF) was a 6-U CubeSat originally developed at JPL that was designed to detect water ice on the south pole of the moon. GT was selected to design the propulsion system in conjunction with MSFC. After GT's initial involvement designing the propulsion system, GT was selected to integrate the spacecraft and perform mission operations.  
 </p>
 <p>
-    I got involved with the integration and test campaign while I was finishing my undergrad degree. After being hired full-time at GTRI, I continued my work on LF, delivering the CubeSat for launch in late 2022 and performing mission operations through summer 2023.  LF ultimately failed to reach the moon, but working on this project was incredibly rewarding and a highlight of my career. This page covers my involvement with LF from it first arriving at GT in Summer 2021 to us saying goodbye in December 2023. (WORK IN PROGRESS)
+    I got involved with the integration and test campaign while I was finishing my undergrad degree. After being hired full-time at GTRI, I continued my work on LF, delivering the CubeSat for launch in late 2022 and performing mission operations through summer 2023.  LF ultimately failed to reach the moon, but working on this project was incredibly rewarding and a highlight of my career. This page covers my involvement with LF from it first arriving at GT in Summer 2021 to us saying goodbye in December 2023.
 </p>
  </div>
 
@@ -43,6 +43,14 @@ So while we know there is water ice on the south pole of the moon, it is still a
 <b>Putting all the pieces together</b>
 
 We had a propulsion system that was fabricated at GT and an avionics assembly that was assembled at JPL. While both systems had undergone some system-level testing, they had never been tested as a unit. When the upper avionics assembly arrived at GT, it would be the first time **ever** that the flight systems would be connected. We had to take this from a collection of separate parts, to a fully-assembled CubeSat ready for launch in just a few months.
+<div class="row">
+    <div class="col-sm">
+        {% include figure.html path="assets/img/lfblog/lf-cad-labeled.png" title="LF Internal Components" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    A labeled diagram of the internal components of LF
+</div>
 
 I was thrown into this project in June 2021, about two months before the bus was scheduled to arrive. I was responsible for writing procedures on how to assemble a CubeSat that I hadn't even seen in person yet. I spent almost every day meeting with JPL engineers and students within SSDL at GT to figure out how we were going to put this thing together. It was stressful but extremely rewarding at the same time.
 
@@ -79,12 +87,22 @@ Our first task was to get the propulsion system connected mechanically and elect
 
  Looking back at it now, it's as basic of a PCB as you can get. I don't know if I would even mention this PCB in an interview if asked about all of my design experience. But it was still my first actual PCB and it holds a special place in my engineering heart (questionable routing and design choices aside).
 
+ We were able to complete the majority of the integration campaign in about 4-5 months. But now that we had a fully assembled CubeSat, we still had a long way to go to getting it into space.  
+
 <h1> Test</h1>
 <b>Making sure this thing works</b>
+
+
+It's already difficult enough to design and assemble a CubeSat capable of surviving the space environment. But it's an entirely different undertaking to prove that what we built would perform exactly as it was designed. For every system on LF, we had to design tests that would show that every part performed exactly within its specification. 
+
+Some tests were simple, such as showing that our limit switches would turn on power properly when we were deployed from the launch vehicle. But many of the tests were quite involved and required weeks and months of planning for a test that could take weeks to run. The complexity was motivated by an adage that every engineer working on a flight project at JPL knows:  [**test-as-you-fly**](https://llis.nasa.gov/lesson/1196).
 <div class="row">
     <div class="col-sm">
         {% include figure.html path="assets/img/lfblog/lf-selfie.jpg" title="Me with LF after our pre-ship review" class="img-fluid rounded z-depth-1" %}
     </div>
+</div>
+<div class="caption">
+    Me with LF after our pre-ship review
 </div>
 
 <h1>Launch</h1>
@@ -98,11 +116,7 @@ After a long and arduous test campaign, we had finally delivered LF and were rea
 <h1> End of Mission</h1>
 <b>Saying goodbye</b>
 <!--Check this https://codepen.io/jpI/pen/QQwqWK?editors=1100-->
-<div class="row">
-    <div class="col-sm">
-        {% include figure.html path="assets/img/lfblog/lf-cad-labeled.png" title="LF Internal Components" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+
 
 <div class="row">
     <div class="col-sm">
