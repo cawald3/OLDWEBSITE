@@ -28,9 +28,6 @@ I worked on I&T for this mission both remotely and on-site at JPL for several mo
 
 <div class ="row" style="height:20px">
 </div>
-<h1> Background </h1>
-
-(Page in Progress)
 
 
 
