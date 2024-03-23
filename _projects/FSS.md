@@ -19,10 +19,10 @@ toc:
 </div>
 <div class = "clearfix">
 <p>
-    FSS is a lunar landing payload that is currently in development at JPL. It's slated to launch in 2025 and will ride aboard iSpace's 3rd lunar lander mission. The main payload is the same seismometer that was used for the Insight mission, but FSS's has been tuned to the gravitational environment of the moon. I worked on I&T for this mission both remotely and on-site at JPL for several months.
+    FSS is a lunar landing payload that is currently in development at JPL. It's slated to launch in 2025 and will ride aboard iSpace's 3rd lunar lander mission. The main payload is the same seismometer that was used for the Insight mission, but FSS's has been tuned to the gravitational environment of the moon. 
 </p>
 <p>
-    
+I worked on I&T for this mission both remotely and on-site at JPL for several months. I supported radio testing, created system level test plans, and worked hands-on to integrate the final instrument. My work is still ongoing for this project.
 </p>
  </div>
 
