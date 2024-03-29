@@ -92,23 +92,34 @@ Our first task was to get the propulsion system connected mechanically and elect
 <h1> Test</h1>
 <b>Making sure this thing works</b>
 
-
 It's already difficult enough to design and assemble a CubeSat capable of surviving the space environment. But it's an entirely different undertaking to prove that what we built would perform exactly as it was designed. For every system on LF, we had to design tests that would show that every part performed exactly within its specification. 
 
-Some tests were simple, such as showing that our limit switches would turn on power properly when we were deployed from the launch vehicle. But many of the tests were quite involved and required weeks and months of planning for a test that could take weeks to run. The complexity was motivated by an adage that every engineer working on a flight project at JPL knows:  [**test-as-you-fly**](https://llis.nasa.gov/lesson/1196).
+Some tests were simple, such as showing that power would turn on when we were deployed from the launch vehicle. But many of the tests were quite involved and required weeks and months of planning for a test that could take weeks to run. One of the major tests any spacecraft undergoes is a thermal vacuum (TVAC) test. During TVAC, you put your spacecraft in a chamber that can go to extremely low pressures while exposing the hardware to temperatures ranging from -20 to +50 °C. Whenever the hardware is in the TVAC chamber, it has to be monitored 24/7. So while this test was going on for 10 days, I took turns with my peers staying up late into the night to monitor the hardware and make sure nothing went wrong. While the hardware came out unscathed, the same couldn't be said for my sleep schedule. 
+
+
 <div class="row">
     <div class="col-sm">
-        {% include figure.html path="assets/img/lfblog/lf-selfie.jpg" title="Me with LF after our pre-ship review" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/lfblog/lf-selfie.jpg" title="Me with LF right before shipment" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Me with LF after our pre-ship review
 </div>
 
+After several months and many, <b>many</b>, long nights, we completed all of the major testing milestones that we had set. LF was ready for launch. We shipped LF off to Marshall Space Flight Center for fueling and then brought it down to Kennedy Space center for launch vehicle integration. It was only a few weeks until we would be operating an interplanetary CubeSat.
+
 <h1>Launch</h1>
 <b>Getting LF off the ground</b>
 
-After a long and arduous test campaign, we had finally delivered LF and were ready for operations. All that had to happen now was for us to launch.
+Whenever we first delivered LF to SpaceX for launch, we thought that we would launch in just a couple weeks. But things always end up getting pushed back and our launch date slipped several times. Sometimes the decision to scrub a launch would come only hours before we were supposed to launch, so we would already be in our mission operations center at GT, getting ready when we were told to stop and head home for the night.
+
+But eventually, we got off the ground. Lunar Flashlight officially launched on Sunday, December 11 at 2:38 a.m ET. Here's the video of our launch with official deployment of LF happening 1:11:00 in the video.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UaaF0IgzGSI?si=_iRvFQxLEd5VLpFN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+Once we deployed, our radio wouldn't turn on immediately. So after deployment, we spent the next several minutes waiting to get a report from Deep Space Network that they saw our signal. You can see the moment we first ever talked to Lunar Flashlight in space here:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4ld9nHvi9Kw?si=iEJe-TTUbUz3Oodp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <h1> Operations </h1>
 <b>Wishing that LF was on the ground</b>
@@ -117,11 +128,16 @@ After a long and arduous test campaign, we had finally delivered LF and were rea
 <b>Saying goodbye</b>
 <!--Check this https://codepen.io/jpI/pen/QQwqWK?editors=1100-->
 
+Eventually, it became clear that we weren't going to make it to the moon. It had taken many months, and the team had given absolutely everything we had to troubleshooting LF, but this was a problem that just couldn't be solved in space. The project made the official decision to call off recovery efforts on the propulsion system. As LF swung by Earth for one final pass, it gained enough energy to be ejected from the Earth-Moon system. While we passed by Earth, we captured this image with our star tracker:
 
 <div class="row">
     <div class="col-sm">
         {% include figure.html path="assets/img/lfblog/lf-earthphoto.png" title="Photo of Earth taken by LF" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
+But even with the main mission over, we didn't let the opportunity go to waste. It's not often that you get to work with an interplanetary CubeSat and the team at GT made the best of it. 
+
+
 
 
