@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Created the website, now to populate it
+Created the website
